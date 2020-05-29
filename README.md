@@ -11,7 +11,7 @@ The repository contains the following files:
 * Results GUI.jpynb
 * Million Song slides.pdf
 
-## The *Gather* & *Json* .py Files
+### The *Gather* & *Json* .py Files
 
 These 2 .py files requires a ```python 2.7``` environment. The database is stored on AWS as a ```HDF5``` format. After the data is mounted to my Google Cloud bucket, it has to be transformed into a different format. While the ```hdf5_gathers.py``` is used to extract the features, the ```hdf5_json_all.py``` tranfroms the features into ```JSON``` format. To run these scripts, just simply type the command in your terminal:
 
@@ -19,14 +19,14 @@ These 2 .py files requires a ```python 2.7``` environment. The database is store
 python hdf5_json_all.py
 ```
 
-## The *EDA* Notebook
+### The *EDA* Notebook
 
 In this notebook, we created some visualizations for the dataset. The size of this notebook is large as it shows the plots. Please download and and open it on your local laptop.
 
-## The *Recommender* & the *Result GUI* NoteBook
+### The *Recommender* & the *Result GUI* NoteBook
 
 The Recommender notebook contains the main part of our project, data modeling. We used ```pySpark``` to handle the big data. The Result GUI shows a GUI demo of the recommender using a sample of the results.
 
-## The Slides PDF
+### The Slides PDF
 
 This is the presentation slides we used for our project presentation.
