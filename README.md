@@ -11,9 +11,9 @@ The repository contains the following files:
 * [Results GUI.ipynb](Results%20GUI.ipynb)
 * [Million Song Slides](Million%20Song%20slides.pdf)
 
-### The *Gather* & *Json* .py Files
+### The *[Gather](hdf5_gathers.py)* & *[Json](hdf5_json_all.py)* .py Files
 
-These 2 .py files requires a ```python 2.7``` environment. The database is stored on AWS as a ```HDF5``` format. After the data is mounted to my Google Cloud bucket, it has to be transformed into a different format. While the [```hdf5_gathers.py```](hdf5_gathers.py) is used to extract the features, the [```hdf5_json_all.py```](hdf5_json_all.py) tranfroms the features into ```JSON``` format. To run these scripts, just simply type the command in your terminal:
+These 2 .py files requires a ```python 2.7``` environment. The database is stored on AWS as a ```HDF5``` format. After the data is mounted to my Google Cloud bucket, it has to be transformed into a different format. While the ```hdf5_gathers.py```  is used to extract the features, the ```hdf5_json_all.py``` tranfroms the features into ```JSON``` format. To run these scripts, just simply type the command in your terminal:
 
 ```linux
 python hdf5_json_all.py
