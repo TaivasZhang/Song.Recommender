@@ -5,15 +5,15 @@ In this repository sat a project that exploited the Million Song Dataset to buil
 The repository contains the following files:
 
 * [hdf5_gathers.py](hdf5_gathers.py)
-* hdf5_json_all.py
-* EDA.jpynb
-* Recommender.jpynb
-* Results GUI.jpynb
-* Million Song slides.pdf
+* [hdf5_json_all.py](hdf5_json_all.py)
+* [EDA.jpynb](EDA.jpynb)
+* [Recommender.jpynb](Recommender.jpynb)
+* [Results GUI.jpynb](Results GUI.jpynb)
+* [Million Song slides.pdf](Million Song slides.pdf)
 
 ### The *Gather* & *Json* .py Files
 
-These 2 .py files requires a ```python 2.7``` environment. The database is stored on AWS as a ```HDF5``` format. After the data is mounted to my Google Cloud bucket, it has to be transformed into a different format. While the ```hdf5_gathers.py``` is used to extract the features, the ```hdf5_json_all.py``` tranfroms the features into ```JSON``` format. To run these scripts, just simply type the command in your terminal:
+These 2 .py files requires a ```python 2.7``` environment. The database is stored on AWS as a ```HDF5``` format. After the data is mounted to my Google Cloud bucket, it has to be transformed into a different format. While the [```hdf5_gathers.py```](hdf5_gathers.py) is used to extract the features, the [```hdf5_json_all.py```](hdf5_json_all.py) tranfroms the features into ```JSON``` format. To run these scripts, just simply type the command in your terminal:
 
 ```linux
 python hdf5_json_all.py
