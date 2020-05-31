@@ -6,10 +6,10 @@ The repository contains the following files:
 
 * [hdf5_gathers.py](hdf5_gathers.py)
 * [hdf5_json_all.py](hdf5_json_all.py)
-* [EDA.jpynb](EDA.jpynb)
-* [Recommender.jpynb](Recommender.jpynb)
-* [Results GUI.jpynb](Results GUI.jpynb)
-* [Million Song slides.pdf](Million Song slides.pdf)
+* [EDA.ipynb](EDA.ipynb)
+* [Recommender.ipynb](Recommender.ipynb)
+* [Results GUI.ipynb](Results GUI.ipynb)
+* [Million Song Slides](Million Song slides.pdf)
 
 ### The *Gather* & *Json* .py Files
 
@@ -19,14 +19,14 @@ These 2 .py files requires a ```python 2.7``` environment. The database is store
 python hdf5_json_all.py
 ```
 
-### The *EDA* Notebook
+### The *[EDA](EDA.ipynb)* Notebook
 
 In this notebook, we created some visualizations for the dataset. The size of this notebook is large as it shows the plots. Please download and and open it on your local laptop.
 
-### The *Recommender* & the *Result GUI* NoteBook
+### The *[Recommender](Recommender.ipynb)* & the *[Result GUI](Results GUI.ipynb)* NoteBook
 
 The Recommender notebook contains the main part of our project, data modeling. We used ```pySpark``` to handle the big data. The Result GUI shows a GUI demo of the recommender using a sample of the results.
 
-### The Slides PDF
+### The [Slides](Million Song slides.pdf) PDF
 
 This is the presentation slides we used for our project presentation.
