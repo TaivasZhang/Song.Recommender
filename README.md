@@ -9,7 +9,7 @@ The repository contains the following files:
 * [EDA.ipynb](EDA.ipynb)
 * [Recommender.ipynb](Recommender.ipynb)
 * [Results GUI.ipynb](Results%20GUI.ipynb)
-* [Million Song Slides](Million%20Song%20slides.pdf)
+* Million Song Slides
 
 ### The *[Gather](hdf5_gathers.py)* & *[JSON](hdf5_json_all.py)* .py Files
 
