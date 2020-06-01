@@ -27,6 +27,6 @@ In this notebook, we created some visualizations for the dataset. The size of th
 
 The Recommender notebook contains the main part of our project, data modeling. We used ```pySpark``` to handle the big data. The Result GUI shows a GUI demo of the recommender using a sample of the results.
 
-### The [Slides](Million%20Song%20slides.pdf) PDF
+#### Learn more about this [Project](Million%20Song%20slides.pdf).
 
-This is the presentation slides we used for our project presentation.
+&copy; 2020 Skye Zhang. All rights reserved.
