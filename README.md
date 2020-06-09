@@ -29,4 +29,4 @@ The Recommender notebook contains the main part of our project, data modeling. W
 
 #### Learn more about this [Project](Million%20Song%20slides.pdf).
 
-&copy; 2020 Skye Zhang. All rights reserved.
+Copyright &copy; 2020 by Skye Zhang. All rights reserved.
